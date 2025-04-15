@@ -39,7 +39,7 @@ public class RecipeServiceImpl implements RecipeService {
         log.info("Fetching all recipes");
         List<Recipe> recipes = recipeRepository.findAll();
         log.info("Retrieved {} recipes", recipes.size());
-        return recipes;
+        return  recipes;
     }
 
     @Override
